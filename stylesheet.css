@@ -1,0 +1,102 @@
+
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.BackgroundBlock{
+  background-color:black;
+  width:70vw;
+  float: right;
+  height: 100vh;
+  margin:0;
+  position: absolute;
+  z-index: -1;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+.MainImg{
+  z-index: +1;
+  position: absolute;
+  margin-left: 16vw;
+  margin-top: 22vh;
+}
+.MainImg img{
+  width:30vw;
+  height: auto;
+}
+.Flexbox{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.MainTextBox{
+  margin-top: 32vh;
+  margin-left: 23vw;
+  max-width: 30vw;
+}
+.MainCaterogieBox{
+  background-color: grey;
+  width: fit-content;
+  height: fit-content;
+}
+.Mainh1{
+  color:white;
+  font-size: 6rem;
+  margin-top: 0.5vh;
+  margin-bottom: 3vh;
+}
+.Mainp{
+  color:grey;
+}
+.Mainh3{
+  color:white;
+  padding:0.2rem 0.4rem;
+  margin-bottom: 0;
+}
+.Mainh4{
+  color:white;
+}
+.MainSideBar{
+  height: 100vh;
+  width:6vw;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MenuButton{
+  height:6vw;
+  width:6vw;
+  margin-bottom: 5px;
+  margin: 0;
+  background-color: white;
+  display: flex;
+
+}
+
+.MenuButton img{
+  max-width: 3vw;
+  height: auto;
+  margin:1.5vw;
+}
+.MenuBar{
+  background-color: white;
+  height: calc( 100vh - 6.5vw );
+
+
+}
+.SidebarText{
+  writing-mode: vertical-rl;
+}
+.MenuBarText{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
