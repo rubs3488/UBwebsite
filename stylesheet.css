@@ -3,10 +3,25 @@
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: none;
+}
+.Logo{
+    display: block;
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.Logo img{
+  width:10vw;
+  height: auto;
 }
 
 .BackgroundBlock{
-  background-color:black;
+  background-color:white;
   width:70vw;
   float: right;
   height: 100vh;
@@ -16,7 +31,6 @@ body{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-
 
 }
 .MainImg{
@@ -28,6 +42,17 @@ body{
 .MainImg img{
   width:30vw;
   height: auto;
+}
+.MainLeftBottum{
+  position: fixed;
+  bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+}
+.MainLeftBottum p{
+  margin-left: 1vw;
+  color: white;
 }
 .Flexbox{
   display:flex;
@@ -45,7 +70,7 @@ body{
   height: fit-content;
 }
 .Mainh1{
-  color:white;
+  color:black;
   font-size: 6rem;
   margin-top: 0.5vh;
   margin-bottom: 3vh;
@@ -54,12 +79,12 @@ body{
   color:grey;
 }
 .Mainh3{
-  color:white;
+  color:black;
   padding:0.2rem 0.4rem;
   margin-bottom: 0;
 }
 .Mainh4{
-  color:white;
+  color:black;
 }
 .MainSideBar{
   height: 100vh;
@@ -76,7 +101,6 @@ body{
   margin: 0;
   background-color: white;
   display: flex;
-
 }
 
 .MenuButton img{
@@ -88,15 +112,33 @@ body{
   background-color: white;
   height: calc( 100vh - 6.5vw );
 
-
-}
-.SidebarText{
-  writing-mode: vertical-rl;
 }
 .MenuBarText{
-  margin-top: 10vh;
-  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.SidebarText{
+  writing-mode: vertical-rl;
+  margin-top: 10vh;
+  margin-left: 2.5vw;
+}
+.Language{
+  position: fixed;
+  bottom: 0px;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+.Language p {
+  margin-top: 0;
+  margin-right: 0.3vw;
+}
+  #triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid black;
+      margin-top: 0.3vh;
+    }
